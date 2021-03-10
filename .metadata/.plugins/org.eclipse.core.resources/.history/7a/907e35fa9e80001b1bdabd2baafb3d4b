@@ -1,0 +1,18 @@
+
+public class Teacher {
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		if(name == null | name.trim().contentEquals("")) {
+			throw new IllegalArgumentException("name is mandatory");
+		}
+		this.name = name;
+	}
+
+	
+
+}

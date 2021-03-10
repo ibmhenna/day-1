@@ -4,7 +4,6 @@ public class Human {
 	private String name;
 	private byte age;	//in years
 	private GENDER gender = GENDER.FEMALE;
-	
 
 	public GENDER getGender() {
 		return gender;

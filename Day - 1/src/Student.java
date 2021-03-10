@@ -10,7 +10,5 @@ public class Student extends Human{
 	}
 	Student(String name){//custom constructor
 		setName(name);
-		
 	}
-	
 }

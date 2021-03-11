@@ -15,8 +15,8 @@ public class DataWareHouse {
 		System.out.println(order.Order());
 
 		System.out.println("Status : ");
-		STATUS status = STATUS.DELIVERED;
-		System.out.println(status);
+		STATUS status1 = STATUS.DELIVERED;
+		System.out.println(status1);
 	}
 
 }
